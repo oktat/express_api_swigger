@@ -1,0 +1,17 @@
+{
+    "swagger": "2.0",
+    "paths": {
+        "/ping": {
+            "get": {
+                "operationId": "pingEndpoint",
+                "description": "Egyszerű elérés ellenőrzés",
+                "responses": {
+                    "200": {
+                        "description": "Siker"
+                    }
+                }
+            }
+        }
+    }
+
+}
